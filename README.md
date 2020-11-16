@@ -4,3 +4,4 @@
 
 2. Please stored all static files (e.g. images, pdfs) in the folder `~/static`
 
+3. The example site is hosted [here](https://jasonmoy28.github.io/jasonmoy_reasearch_site_example/)
