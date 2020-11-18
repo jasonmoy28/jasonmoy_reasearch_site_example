@@ -17,9 +17,9 @@
     <nav>
       <div class="nav-bar-mobile"></div>
       <div class="nav-bar">
-        <div class="flex-container-title">
+        <ul class="flex-container-title">
           <li><a href="index.html">Project Title</a></li>
-        </div>
+        </ul>
         <ul class="flex-container-nav-bar">
           <li><a href="index.html">Home</a></li>
           <li><a href="manuscript.html">Manuscript</a></li>
@@ -52,14 +52,22 @@
             odit, vitae fuga itaque excepturi deleniti commodi cupiditate!
           </p>
         </div>
+
         <div class="citation-container">
           <h3 id="author">
             <p><b>Authors</b></p>
-            <p>Authors Name</p>
+            <!-- links to the authors' personal website, delete a-tag if no personal website exist -->
+            <p>
+              <!-- author 1 link -->
+              <a href="#">Author 1</a>
+              &
+              <!-- author 2 link  -->
+              <a href="#">Author 2</a>
+            </p>
           </h3>
           <h3 id="affliation">
-            <p><b>Affliations</b></p>
-            <p>Insitution Name</p>
+            <p><b>Affiliation</b></p>
+            <p>Institution Name</p>
           </h3>
           <h3 id="lab-link">
             <p><b>Lab Link</b></p>
@@ -71,6 +79,7 @@
             <p><b>Source Code</b></p>
             <div class="container">
               <a
+                id="github-logo"
                 href="https://github.com/jasonmoy28/jasonmoy_reasearch_site_example"
                 target="_blank"
                 ><img src="static/logos/github-icon.svg" alt=""
