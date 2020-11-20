@@ -4,7 +4,7 @@
 
 1. Fork this template to your github by clicking the Use this template
 
-   ![Screen Shot 2020-11-21 at 12.21.48 AM](/Users/Jasonmoy/Desktop/Screen Shot 2020-11-21 at 12.21.48 AM.png)
+   ![Screen Shot 2020-11-21 at 12.21.48 AM](https://tva1.sinaimg.cn/large/0081Kckwly1gkw4g7p8o6j31tp0u048q.jpg)
 
    
 
