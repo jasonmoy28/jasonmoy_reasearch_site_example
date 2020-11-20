@@ -2,13 +2,13 @@
 
 ### How to get started? 
 
-1. Fork this template to your github by clicking the Use this template
+1. Fork this template to your github by clicking the `Use this template` as shown on the image
 
    ![Screen Shot 2020-11-21 at 12.21.48 AM](https://tva1.sinaimg.cn/large/0081Kckwly1gkw4g7p8o6j31tp0u048q.jpg)
 
    
 
-2. Clone the repository to your local computer using terminal command or using one of the GUI (recommend [Source Tree](https://www.sourcetreeapp.com/) )
+2. Clone the repository to your local computer using terminal command (don't use it unless you actually want to learn `git` command) or using one of the GUI (highly recommend using [Source Tree](https://www.sourcetreeapp.com/) )
 
    * ```bash
      # Using the terminal command 
@@ -26,14 +26,14 @@
      git submodule update --recursive
      ```
 
-4. Change a few `HTML` files. All the place required changing are marked using comment 
+4. Change a few `HTML` files. All the places required changing are marked using comment (Open it with any text editor should be fine, but [VSCode](https://code.visualstudio.com/) is highly recommended) 
    * `index.html` (or the home page) has 11 places to be changed 
    * `manuscript.html` has 5 places to be changed 
    * `visualization.html` has 4 places to be changed 
    * `poster.html` has 5 places to be changed 
 
 5. Stored static files (e.g. manuscript, visualization or graphs, posters) in the folder `~/static`
-6. If you need additional `CSS`, I recommend adding it in a new folder named `custom-style` 
+6. If you need additional `CSS`, I recommend adding it in a new folder named `custom-style`, and never change anything in the submodule file. 
 
 
 
