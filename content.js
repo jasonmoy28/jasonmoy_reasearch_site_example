@@ -20,10 +20,16 @@ const indexHTML = {
   adipisicing elit. Sequi, deleniti quod officiis voluptatum
   doloremque minima, adipisci aliquid iste fugit, possimus saepe! Hic
   odit, vitae fuga itaque excepturi deleniti commodi cupiditate!"`,
-  author1: "Jason Moy",
-  author1_link: "https://jasonmoy.us", // #All links must include "https://"
-  author2: "Author 2",
-  author2_link: "#",
+  author1: { name: "Jason Moy", link: "https://jasonmoy.us" }, // #All links must include "https://"
+  author2: { name: "Author 2", link: "#" }, //#Name must be set to `null` if do not want to appear on screen
+  author3: { name: null, link: "#" },
+  author4: { name: null, link: "#" },
+  author5: { name: null, link: "#" },
+  author6: { name: null, link: "#" },
+  author7: { name: null, link: "#" },
+  author8: { name: null, link: "#" },
+  author9: { name: null, link: "#" },
+  author10: { name: null, link: "#" }, //#If you want to add more author, you need to change the main.js
   affiliation_name: "Institution Name",
   lab_name: "Lab Name",
   lab_link: "#",
