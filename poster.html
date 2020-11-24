@@ -9,8 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="height=device-height, initial-scale=1.0" />
     <link rel="stylesheet" href="submodule/style/poster.css" />
-    <!-- !Change web title here -->
-    <title>Project Title</title>
+    <title></title>
     <meta name="robots" content="index, follow" />
   </head>
 
@@ -19,8 +18,7 @@
       <div class="nav-bar-mobile"></div>
       <ul class="nav-bar">
         <ul class="flex-container-title">
-          <!-- !Change nav bar title here  -->
-          <li><a href="index.html">Project Title</a></li>
+          <li><a id="brandName" href="index.html"></a></li>
         </ul>
         <ul class="flex-container-nav-bar">
           <a href="index.html">Home</a>
@@ -41,21 +39,18 @@
       <div class="desktop-container">
         <h2 class="desktop-text">
           Download it&nbsp
-          <!-- !Change to poster path here for download purposes-->
-          <a href="static/posters/example_poster.pdf" target="_blank">here</a>
+          <a id="poster-download-source" href="" target="_blank">here</a>
         </h2>
         <div class="poster-desktop-container">
-          <!-- !Change to poster path here for display purposes-->
-          <iframe
-            src="static/posters/example_poster.pdf"
-            height="100%"
-            width="100%"
-          ></iframe>
+          <iframe id="poster-iframe-source" height="100%" width="100%"></iframe>
         </div>
       </div>
     </main>
-    <!-- ! Change footer here -->
-    <footer><p>© Jason Moy | Created & designed by Jason Moy</p></footer>
-    <script src="nav.js"></script>
+    <footer>
+      <p id="footer"></p>
+    </footer>
+    <script src="content.js"></script>
+    <script src="submodule/javascript/nav.js"></script>
+    <script src="submodule/javascript/main.js"></script>
   </body>
 </html>

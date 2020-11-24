@@ -10,7 +10,7 @@
     <meta name="viewport" content="height=device-height, initial-scale=1.0" />
     <link rel="stylesheet" href="submodule/style/manuscript.css" />
     <!-- !Change web title here -->
-    <title>Project Title</title>
+    <title></title>
     <meta name="robots" content="index, follow" />
   </head>
 
@@ -20,7 +20,7 @@
       <ul class="nav-bar">
         <ul class="flex-container-title">
           <!-- !Change nav bar title here  -->
-          <li><a href="index.html">Project Title</a></li>
+          <li><a id="brandName" href="index.html">Project Title</a></li>
         </ul>
         <ul class="flex-container-nav-bar">
           <a href="index.html">Home</a>
@@ -42,22 +42,23 @@
         <h2 class="desktop-text">
           Download it&nbsp
           <!-- ! Change to the manuscript path here for download purposes-->
-          <a href="static/manuscript/example_thesis.pdf" target="_blank"
-            >here</a
-          >
+          <a id="manuscript-download-source" href="" target="_blank">here</a>
         </h2>
         <div class="manuscript-desktop-container">
-          <!-- ! Change to the manuscript path here for display purposes (iframe)-->
           <iframe
-            src="static/manuscript/example_thesis.pdf"
+            id="manuscript-iframe-source"
+            src=""
             height="100%"
             width="100%"
           ></iframe>
         </div>
       </div>
     </main>
-    <!-- ! Change footer here -->
-    <footer><p>© Jason Moy | Created & designed by Jason Moy</p></footer>
-    <script src="nav.js"></script>
+    <footer>
+      <p id="footer">© Jason Moy | Created & designed by Jason Moy</p>
+    </footer>
+    <script src="content.js"></script>
+    <script src="submodule/javascript/nav.js"></script>
+    <script src="submodule/javascript/main.js"></script>
   </body>
 </html>

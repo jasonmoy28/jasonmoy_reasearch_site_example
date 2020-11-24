@@ -9,8 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="height=device-height, initial-scale=1.0" />
     <link rel="stylesheet" href="submodule/style/home.css" />
-    <!-- !Change web title here -->
-    <title>Project Title</title>
+    <title></title>
     <meta name="robots" content="index, follow" />
   </head>
 
@@ -18,8 +17,7 @@
     <nav>
       <ul class="nav-bar">
         <ul class="flex-container-title">
-          <!-- !Change nav bar title here  -->
-          <li><a href="index.html">Project Title</a></li>
+          <li><a id="brandName" href="index.html"></a></li>
         </ul>
         <ul class="flex-container-nav-bar">
           <a href="index.html">Home</a>
@@ -36,72 +34,48 @@
     </nav>
 
     <main>
-      <!-- ! Change main title here -->
-      <h1>Thesis Title</h1>
+      <h1 id="mainTitle"></h1>
       <div class="content-container">
         <div class="paragraph-container">
-          <!-- ! Change abstract here -->
-          <p>
-            <strong>Abstract: </strong>Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Perspiciatis soluta magnam ratione dolor optio ex,
-            explicabo veritatis modi consequatur, non at tempora numquam ipsum
-            aliquam. Architecto quos numquam debitis dicta! Lorem ipsum dolor
-            sit, amet consectetur adipisicing elit. Ea veritatis cupiditate
-            cumque quibusdam laborum voluptatem nemo. Nobis velit aperiam dolor,
-            delectus aut provident exercitationem et ducimus nisi, aliquid,
-            reprehenderit alias! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Sequi, deleniti quod officiis voluptatum
-            doloremque minima, adipisci aliquid iste fugit, possimus saepe! Hic
-            odit, vitae fuga itaque excepturi deleniti commodi cupiditate!
-          </p>
+          <p id="abstract"></p>
         </div>
 
         <div class="citation-container">
           <h3 id="author">
             <p><b>Authors</b></p>
             <p>
-              <!-- ! change author 1 link & name here. Delete a tag if author has no link-->
-              <a href="#" target="_blank">Author 1</a>
+              <a id="author1" href="" target="_blank"></a>
               &
-              <!-- ! change author 1 link & name here. Delete a tag if author has no link-->
-              <a href="#" target="_blank">Author 2</a>
+              <a id="author2" href="" target="_blank"></a>
             </p>
           </h3>
           <h3 id="affliation">
             <p><b>Affiliation</b></p>
-            <!-- ! Change affiliation name here -->
-            <p>Institution Name</p>
+            <p id="affiliationName"></p>
           </h3>
-          <h3 id="lab-link">
+          <h3>
             <p><b>Lab Link</b></p>
             <p>
-              <!-- ! Change lab name & lab link here-->
-              <a href="#" target="_blank">Lab Name</a>
+              <a id="labLink" href="" target="_blank"></a>
             </p>
           </h3>
           <h3 id="source-code">
             <p><b>Source Code</b></p>
             <div class="container">
-              <!-- ! Change github repo here -->
-              <a
-                id="github-logo"
-                href="https://github.com/jasonmoy28/jasonmoy_reasearch_site_example"
-                target="_blank"
+              <a id="github-logo" href="" target="_blank"
                 ><img src="static/logos/github-icon.svg" alt=""
               /></a>
-              <!-- ! Change github repo link here as well -->
-              <a
-                target="_blank"
-                href="https://github.com/jasonmoy28/jasonmoy_reasearch_site_example"
-                >Github Repository</a
-              >
+              <a id="github-text" target="_blank" href="">Github Repository</a>
             </div>
           </h3>
         </div>
       </div>
     </main>
-    <!-- ! Change footer here -->
-    <footer><p>© Jason Moy | Created & designed by Jason Moy</p></footer>
-    <script src="nav.js"></script>
+    <footer>
+      <p id="footer"></p>
+    </footer>
+    <script type="text/javascript" src="content.js"></script>
+    <script src="submodule/javascript/nav.js"></script>
+    <script src="submodule/javascript/main.js"></script>
   </body>
 </html>

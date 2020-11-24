@@ -1,6 +1,6 @@
 # Guide to this Repository 
 
-### How to get started? 
+### Setting Up
 
 1. Fork this template to your github by clicking the `Use this template` as shown on the image
 
@@ -23,17 +23,27 @@
      git submodule update --init --recursive #initialize the submodule
      
      #If you want to update the submodule 
-     git submodule update --recursive
+     cd [submodule path]
+     git pull 
      ```
 
-4. Change a few `HTML` files. All the places required changing are marked using comment (Open it with any text editor should be fine, but [VSCode](https://code.visualstudio.com/) is highly recommended) 
-   * `index.html` (or the home page) has 11 places to be changed 
-   * `manuscript.html` has 5 places to be changed 
-   * `visualization.html` has 4 places to be changed 
-   * `poster.html` has 5 places to be changed 
 
-5. Stored static files (e.g. manuscript, visualization or graphs, posters) in the folder `~/static`
-6. If you need additional `CSS`, I recommend adding it in a new folder named `custom-style`, and never change anything in the submodule file. 
+
+### Modify the site
+
+1. Store static files (e.g., png, pdf) in the corresponding sub-folder of the`~/static` folder is recommended
+
+2. Changed the `content.js` file
+
+   * `index.html`(i.e. the home page) reference graph
+
+   ![Screen Shot 2020-11-21 at 12.21.48 AM](static/misc/index_html.png)
+
+   * `manuscript` : you will need to change the source file path for the manuscript 
+   * `visulization`: you will need to change the source file path for the graphs 
+   * `poster`: you will need to change the source file path for the poster
+
+3. If you need additional `CSS`, I recommend adding it in a new folder named `custom-style`, and never change anything in the submodule file. 
 
 
 
