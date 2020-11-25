@@ -20,16 +20,13 @@ const indexHTML = {
   adipisicing elit. Sequi, deleniti quod officiis voluptatum
   doloremque minima, adipisci aliquid iste fugit, possimus saepe! Hic
   odit, vitae fuga itaque excepturi deleniti commodi cupiditate!"`,
-  author1: { name: "Jason Moy", link: "https://jasonmoy.us" }, // #All links must include "https://"
-  author2: { name: "Author 2", link: "#" }, //#Name must be set to `null` if do not want to appear on screen
-  author3: { name: null, link: "#" },
-  author4: { name: null, link: "#" },
-  author5: { name: null, link: "#" },
-  author6: { name: null, link: "#" },
-  author7: { name: null, link: "#" },
-  author8: { name: null, link: "#" },
-  author9: { name: null, link: "#" },
-  author10: { name: null, link: "#" }, //#If you want to add more author, you need to change the main.js
+  // # Add as many author as you want. You must use the same format of {author: [name, link] }.
+  // # If authors has no link use null. All links must include "https://"
+  authors: [
+    { author1: ["Jason Moy", "https://jasonmoy.us"] },
+    { author2: ["Author 2", null] },
+    { author3: ["Author 3", "https://jasonmoy.us"] },
+  ],
   affiliation_name: "Institution Name",
   lab_name: "Lab Name",
   lab_link: "#",
@@ -37,10 +34,13 @@ const indexHTML = {
 };
 
 const manuscript = {
+  // #If "show_manuscript" is set to false, it will show "Not Yet Avaliable" instead of "Download it here". The iframe box will also be removed
+  show_manuscript: true,
   manuscript_source: "static/manuscript/example_thesis.pdf",
 };
 
 const visualization = {
+  // *You can add or delete images as you want, just use the same format
   img1_src: "static/visualization/demo-image 1.png",
   img2_src: "static/visualization/demo-image 2.png",
   img3_src: "static/visualization/demo-image 3.png",
@@ -50,5 +50,7 @@ const visualization = {
 };
 
 const poster = {
+  // #If "show_poster" is set to false, it will show "Not Yet Avaliable" instead of "Download it here". The iframe box will also be removed
+  show_poster: true,
   poster_source: "static/posters/example_poster.pdf",
 };
