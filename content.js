@@ -35,7 +35,6 @@ const indexHTML = {
 
   show_lab: true, //* Set to false if you don't want the "Lab" section
   lab_name: "Lab Name",
-  affiliation_name: "Institution Name",
   lab_link: "#", //* If your lab has not link, set "lab_link: null" to remove the underline
 
   show_publication: true, //* Set to false if you don't want the "Publication" section
