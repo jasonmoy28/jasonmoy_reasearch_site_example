@@ -21,7 +21,8 @@ const indexHTML = {
   doloremque minima, adipisci aliquid iste fugit, possimus saepe! Hic
   odit, vitae fuga itaque excepturi deleniti commodi cupiditate!"`,
   // # Add as many author as you want. You must use the same format of {author: [name, link] }.
-  // # If authors has no link use null. All links must include "https://"
+  // # If authors has no link use "null" (exampled by author 2)
+  // # All links must include "https://"
   authors: [
     { author1: ["Jason Moy", "https://jasonmoy.us"] },
     { author2: ["Author 2", null] },
@@ -29,7 +30,8 @@ const indexHTML = {
   ],
   affiliation_name: "Institution Name",
   lab_name: "Lab Name",
-  lab_link: "#",
+  lab_link: "#", //* If your lab has not link, set "lab_link: null" will remove the underline to indicate no lab link is present
+  show_source_code: true, //* Set to false if you don't want the "Source Code" section
   github_link: "https://github.com/jasonmoy28/jasonmoy_reasearch_site_example",
 };
 
