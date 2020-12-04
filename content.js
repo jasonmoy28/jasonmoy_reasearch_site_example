@@ -27,7 +27,7 @@ const indexHTML = {
   authors: [
     { author1: ["Jason Moy", "https://jasonmoy.us"] },
     { author2: ["Author 2", null] },
-    { author3: ["Author 3", "https://jasonmoy.us"] },
+    { author3: ["Author 3", null] },
   ],
 
   show_affiliation: true, //* Set to false if you don't want the "Affiliation" section
