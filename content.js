@@ -23,7 +23,7 @@ const indexHTML = {
 
   // # Add as many author as you want. You must use the same format of {author: [name, link] }.
   // # If authors has no link use "null" (exampled by the block of author 2)
-  // # All links must include "https://"
+  // ! ALL LINKS MUST INCLUDE "https://"
   authors: [
     { author1: ["Jason Moy", "https://jasonmoy.us"] },
     { author2: ["Author 2", null] },
