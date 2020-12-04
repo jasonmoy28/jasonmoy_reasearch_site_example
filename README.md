@@ -3,9 +3,6 @@
 ### Setting Up
 
 1. Fork this template to your github by clicking the `Use this template` as shown on the image
-
-   ![Screen Shot 2020-11-21 at 12.21.48 AM](https://tva1.sinaimg.cn/large/0081Kckwly1gkw4g7p8o6j31tp0u048q.jpg)
-
    
 
 2. Clone the repository to your local computer using terminal command (don't use it unless you actually want to learn `git` command) or using one of the GUI (highly recommend using [Source Tree](https://www.sourcetreeapp.com/) )
