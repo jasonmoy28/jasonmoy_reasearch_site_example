@@ -46,6 +46,6 @@
 
 ### Example Site 
 
-1. An example site of this template is hosted [here](https://jasonmoy28.github.io/jasonmoy_reasearch_site_example/)
+1. An example site of this template is hosted [here](https://jasonmoy28.github.io/jasonmoy_reasearch_site_template/)
 2. An site using this template to created is hosted [here](https://research.jasonmoy.us/Vocabulary_Learning_Project/)
 
