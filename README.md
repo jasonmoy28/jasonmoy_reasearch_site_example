@@ -1,5 +1,5 @@
 # Guide to this Repository 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](https://github.com/jasonmoy28)
 ### Setting Up
 
 1. Fork this template to your github by clicking the `Use this template` as shown on the image
