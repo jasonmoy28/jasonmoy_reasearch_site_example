@@ -21,6 +21,12 @@ const indexHTML = {
   doloremque minima, adipisci aliquid iste fugit, possimus saepe! Hic
   odit, vitae fuga itaque excepturi deleniti commodi cupiditate!"`,
 
+  // # The home page images. Add the source paths shown as below. Highly recommend add up to 4 images.
+  home_page_image: [
+    "static/visualization/demo-image 1.png",
+    "static/visualization/demo-image 3.png",
+    "static/visualization/demo-image 2.png",
+  ],
   // # Add as many author as you want. You must use the same format of {author: [name, link] }.
   // # If authors has no link use "null" (exampled by the block of author 2)
   // ! ALL LINKS MUST INCLUDE "https://"
