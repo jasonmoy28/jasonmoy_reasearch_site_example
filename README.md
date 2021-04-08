@@ -1,6 +1,8 @@
-# Guide to this Repository 
+# Research Site Template  
 <!-- badges: start -->
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![Github last commit](https://img.shields.io/packagist/l/jasonmoy28/jasonmoy_reasearch_site_template)]()
+
 <!-- badges: end -->
 ### Setting Up
 
