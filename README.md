@@ -2,8 +2,8 @@
 <!-- badges: start -->
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![Github Liscense](https://img.shields.io/github/license/jasonmoy28/jasonmoy_reasearch_site_template)]()
-
 <!-- badges: end -->
+
 ### Setting Up
 
 1. Fork this template to your github by clicking the `Use this template` as shown on the image
